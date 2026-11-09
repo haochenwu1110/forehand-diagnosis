@@ -1,0 +1,97 @@
+{
+  "player": "N2",
+  "items": [
+    {
+      "rank": 1,
+      "J1": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J2": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J3": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J4": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J5": {
+        "pass": false,
+        "reason": "drill要求“用实球全速连续击打”，不符合徒手或慢速挥拍，且可能有安全隐患。"
+      },
+      "J6": {
+        "pass": true,
+        "reason": "通过"
+      }
+    },
+    {
+      "rank": 2,
+      "J1": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J2": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J3": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J4": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J5": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J6": {
+        "pass": true,
+        "reason": "通过"
+      }
+    },
+    {
+      "rank": 3,
+      "J1": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J2": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J3": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J4": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J5": {
+        "pass": true,
+        "reason": "通过"
+      },
+      "J6": {
+        "pass": true,
+        "reason": "通过"
+      }
+    }
+  ],
+  "global": {
+    "G1": {
+      "pass": true,
+      "reason": "通过"
+    },
+    "G2": {
+      "pass": true,
+      "reason": "通过"
+    }
+  },
+  "overall_pass": false
+}

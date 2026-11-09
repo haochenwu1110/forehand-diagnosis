@@ -1,0 +1,15 @@
+{
+  "player": "S3",
+  "items": [],
+  "global": {
+    "G1": {
+      "pass": true,
+      "reason": "通过"
+    },
+    "G2": {
+      "pass": true,
+      "reason": "通过"
+    }
+  },
+  "overall_pass": true
+}

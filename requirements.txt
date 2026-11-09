@@ -1,0 +1,10 @@
+# Analysis (tested with Python 3.13, numpy 2.5, scipy 1.18, pandas 3.0, matplotlib 3.11, Pillow 12.3)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+Pillow>=10.0
+# Optional: constrained convolutional autoencoder (M3_ccae) and dataset.py
+# torch>=2.2
+# Optional: run_feedback_api.py uses the official Anthropic SDK; all other LLM scripts use the standard library only
+# anthropic

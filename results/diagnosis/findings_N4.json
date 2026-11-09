@@ -1,0 +1,196 @@
+{
+  "subject": "N4",
+  "n_strokes": 20,
+  "reference": "10 名熟练者（S1, S2, S3, S4, S5, S6, S7, S8, S9, S10）",
+  "params": {
+    "P_MIN": 0.85,
+    "TAU": 1.0,
+    "tier_weight": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.5
+    },
+    "agreement_weight": {
+      "both": 1.0,
+      "single": 0.5
+    },
+    "methods": [
+      "M0_mean",
+      "M2_pca90"
+    ],
+    "target_skilled_findings": 1.0
+  },
+  "n_findings_total": 5,
+  "findings": [
+    {
+      "rank": 1,
+      "channel": "trunk_lateral_tilt",
+      "joint_cn": "躯干侧倾",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          0
+        ],
+        "end": [
+          "follow",
+          96
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        36
+      ],
+      "direction": "-",
+      "direction_text": "躯干更向左侧倾",
+      "magnitude_deg": -22.3,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 1.524,
+      "priority": 1.524,
+      "related": [],
+      "matches_group_difference": false
+    },
+    {
+      "rank": 2,
+      "channel": "shoulder_elev_L",
+      "joint_cn": "左肩抬高（左臂抬起）",
+      "phases": [
+        "backswing"
+      ],
+      "phase_cn": "引拍",
+      "range_pct": {
+        "start": [
+          "backswing",
+          0
+        ],
+        "end": [
+          "backswing",
+          98
+        ]
+      },
+      "peak_pct": [
+        "backswing",
+        44
+      ],
+      "direction": "-",
+      "direction_text": "左臂抬得更低",
+      "magnitude_deg": -47.3,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "M0_only",
+      "excess": 2.471,
+      "priority": 1.235,
+      "related": [],
+      "matches_group_difference": true
+    },
+    {
+      "rank": 3,
+      "channel": "pelvis_rot_imu",
+      "joint_cn": "骨盆转动",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          16
+        ],
+        "end": [
+          "follow",
+          96
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        80
+      ],
+      "direction": "-",
+      "direction_text": "骨盆更侧身、转得更少（更关闭）",
+      "magnitude_deg": -49.8,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 1.212,
+      "priority": 1.212,
+      "related": [],
+      "matches_group_difference": true
+    },
+    {
+      "rank": 4,
+      "channel": "uarm_forward_R",
+      "joint_cn": "右上臂前后位置",
+      "phases": [
+        "forward"
+      ],
+      "phase_cn": "前挥",
+      "range_pct": {
+        "start": [
+          "forward",
+          0
+        ],
+        "end": [
+          "forward",
+          96
+        ]
+      },
+      "peak_pct": [
+        "forward",
+        46
+      ],
+      "direction": "-",
+      "direction_text": "右上臂更靠后",
+      "magnitude_deg": -41.9,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 0.914,
+      "priority": 0.914,
+      "related": [],
+      "matches_group_difference": false
+    },
+    {
+      "rank": 5,
+      "channel": "trunk_forward_lean",
+      "joint_cn": "躯干前倾",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          0
+        ],
+        "end": [
+          "follow",
+          96
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        32
+      ],
+      "direction": "+",
+      "direction_text": "躯干更前倾",
+      "magnitude_deg": 20.7,
+      "magnitude_source": "M0_mean",
+      "consistency": 0.95,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 0.896,
+      "priority": 0.851,
+      "related": [],
+      "matches_group_difference": false
+    }
+  ]
+}

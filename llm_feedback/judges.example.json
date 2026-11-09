@@ -1,0 +1,50 @@
+{
+ "_comment": "复制为 judges.json 后使用。模型 ID 会随时间更新，运行前请在各家控制台核对；实际调用的模型名会记录在 run_log.json 的 returned_models 中，论文按该值报告。api_key 只从 api_key_env 指定的环境变量读取。不想用的模型加 \"disabled\": true。",
+ "models": [
+  {
+   "name": "claude",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "temperature": 0,
+   "max_tokens": 4000
+  },
+  {
+   "name": "gpt",
+   "provider": "openai",
+   "model": "gpt-6-astra",
+   "temperature": 0,
+   "max_tokens": 4000,
+   "json_mode": true
+  },
+  {
+   "name": "gemini",
+   "provider": "gemini",
+   "model": "gemini-3.8-flash",
+   "temperature": 0,
+   "max_tokens": 8000,
+   "json_mode": true,
+   "_note": "免费层可用；gemini-4-argon 为付费模型。中国大陆无法直连，需设置 HTTPS_PROXY"
+  },
+  {
+   "name": "deepseek",
+   "provider": "openai_compatible",
+   "base_url": "https://api.deepseek.com",
+   "api_key_env": "DEEPSEEK_API_KEY",
+   "model": "deepseek-v4-pro",
+   "temperature": 0,
+   "max_tokens": 8000,
+   "json_mode": true,
+   "_note": "也可用更便宜的 deepseek-flash"
+  },
+  {
+   "name": "qwen",
+   "provider": "openai_compatible",
+   "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+   "api_key_env": "DASHSCOPE_API_KEY",
+   "model": "qwen3-max",
+   "temperature": 0,
+   "max_tokens": 4000,
+   "json_mode": true
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+channel,direction,phase_start,phase_end,length,mean_diff_novice_minus_skilled,peak_diff,complete_separation_frac,p_perm,p_holm_channel,robust
+trunk_forward_lean,novice_below,backswing 0%,forward 70%,86,-14.7,-16.8,0,0.003,0.021,10/10
+knee_flex_L,novice_below,backswing 0%,backswing 62%,32,-25,-27.9,0,0.0293,0.176,10/10
+thorax_rot_imu,novice_below,follow 4%,follow 96%,24,-42,-51,0,0.0336,0.176,10/10
+shoulder_elev_L,novice_below,backswing 0%,backswing 86%,44,-31.7,-36.1,0,0.0373,0.176,10/10
+pelvis_rot_imu,novice_below,follow 4%,follow 96%,24,-36.4,-43.8,0,0.0393,0.176,10/10
+elbow_flex_L,novice_below,follow 36%,follow 96%,16,-27.8,-29.8,0,0.125,0.25,10/10
+shoulder_elev_R,novice_below,follow 84%,follow 96%,4,-19.3,-19.5,0,0.227,0.25,3/10

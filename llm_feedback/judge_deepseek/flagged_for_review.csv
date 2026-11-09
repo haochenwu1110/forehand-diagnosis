@@ -1,0 +1,3 @@
+﻿target,player,rank,criterion,n_fail,n_judges,panel_fail,failed_by,reasons
+main,N3,3,J4,1,1,True,deepseek,deepseek: cue 和 drill 引入了躯干转动（“带动上身一起转过来”“检查骨盆和胸口是否都已转向球网”），超出骨盆转动这一关节范围
+main,N3,4,J4,1,1,True,deepseek,deepseek: drill 涉及引拍阶段（“引拍时左臂向前伸出指向来球”），超出诊断的前挥阶段

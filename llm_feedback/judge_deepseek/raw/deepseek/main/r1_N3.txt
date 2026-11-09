@@ -1,0 +1,46 @@
+{
+  "player": "N3",
+  "items": [
+    {
+      "rank": 1,
+      "J1": { "pass": true, "reason": "通过" },
+      "J2": { "pass": true, "reason": "通过" },
+      "J3": { "pass": true, "reason": "通过" },
+      "J4": { "pass": true, "reason": "通过" },
+      "J5": { "pass": true, "reason": "通过" },
+      "J6": { "pass": true, "reason": "通过" }
+    },
+    {
+      "rank": 2,
+      "J1": { "pass": true, "reason": "通过" },
+      "J2": { "pass": true, "reason": "通过" },
+      "J3": { "pass": true, "reason": "通过" },
+      "J4": { "pass": true, "reason": "通过" },
+      "J5": { "pass": true, "reason": "通过" },
+      "J6": { "pass": true, "reason": "通过" }
+    },
+    {
+      "rank": 3,
+      "J1": { "pass": true, "reason": "通过" },
+      "J2": { "pass": true, "reason": "通过" },
+      "J3": { "pass": true, "reason": "通过" },
+      "J4": { "pass": false, "reason": "cue 和 drill 引入了躯干转动（“带动上身一起转过来”“检查骨盆和胸口是否都已转向球网”），超出骨盆转动这一关节范围" },
+      "J5": { "pass": true, "reason": "通过" },
+      "J6": { "pass": true, "reason": "通过" }
+    },
+    {
+      "rank": 4,
+      "J1": { "pass": true, "reason": "通过" },
+      "J2": { "pass": true, "reason": "通过" },
+      "J3": { "pass": true, "reason": "通过" },
+      "J4": { "pass": false, "reason": "drill 涉及引拍阶段（“引拍时左臂向前伸出指向来球”），超出诊断的前挥阶段" },
+      "J5": { "pass": true, "reason": "通过" },
+      "J6": { "pass": true, "reason": "通过" }
+    }
+  ],
+  "global": {
+    "G1": { "pass": true, "reason": "通过" },
+    "G2": { "pass": true, "reason": "通过" }
+  },
+  "overall_pass": false
+}

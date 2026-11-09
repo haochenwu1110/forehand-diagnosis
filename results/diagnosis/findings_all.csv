@@ -1,0 +1,17 @@
+subject,shown,rank,channel,joint_cn,phases,phase_cn,range_pct,peak_pct,direction,direction_text,magnitude_deg,magnitude_source,consistency,tier,agreement,excess,priority,related,matches_group_difference
+N1,True,1,shoulder_elev_L,左肩抬高（左臂抬起）,"[""forward""]",前挥,"{""start"": [""forward"", 0], ""end"": [""forward"", 82]}","[""forward"", 42]",+,左臂抬得更高,25.8,M0_mean,0.97,1,both,1.228,1.195,[],False
+N1,True,2,uarm_forward_R,右上臂前后位置,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 56]",+,右上臂更靠前,53.3,M0_mean,1.0,1,both,0.921,0.921,[],False
+N2,True,1,hip_flex_R,右髋屈曲,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 88]}","[""follow"", 24]",+,右髋屈得更多,48.2,M0_mean,1.0,1,both,1.51,1.51,[],False
+N2,True,2,trunk_forward_lean,躯干前倾,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 80]",-,躯干更直立/后仰,-18.2,M0_mean,1.0,1,both,0.95,0.95,[],True
+N2,True,3,thorax_rot_imu,躯干转动,"[""follow""]",随挥,"{""start"": [""follow"", 8], ""end"": [""follow"", 96]}","[""follow"", 96]",-,躯干更侧身、转得更少（更关闭）,-48.7,M0_mean,1.0,1,both,0.874,0.874,[],True
+N3,True,1,knee_flex_L,左膝屈曲,"[""backswing"", ""forward""]",引拍→前挥,"{""start"": [""backswing"", 0], ""end"": [""forward"", 82]}","[""backswing"", 28]",-,左腿更直（屈膝不足）,-48.4,M0_mean,1.0,1,both,3.169,3.169,[],True
+N3,True,2,shoulder_elev_R,右肩抬高（上臂抬起）,"[""backswing"", ""forward"", ""follow""]",引拍→前挥→随挥,"{""start"": [""backswing"", 0], ""end"": [""forward"", 92]}","[""backswing"", 18]",-,右上臂抬得更低,-49.5,M0_mean,1.0,1,both,2.165,2.165,[],False
+N3,True,3,pelvis_rot_imu,骨盆转动,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 96]}","[""follow"", 36]",-,骨盆更侧身、转得更少（更关闭）,-48.1,M0_mean,0.95,1,both,1.207,1.143,"[{""channel"": ""thorax_rot_imu"", ""phases"": [""follow""], ""direction"": ""-"", ""magnitude_deg"": -45.8}]",True
+N3,True,4,shoulder_elev_L,左肩抬高（左臂抬起）,"[""forward""]",前挥,"{""start"": [""forward"", 0], ""end"": [""forward"", 58]}","[""forward"", 0]",-,左臂抬得更低,-27.3,M0_mean,1.0,1,both,1.007,1.007,[],False
+N4,True,1,trunk_lateral_tilt,躯干侧倾,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 96]}","[""follow"", 36]",-,躯干更向左侧倾,-22.3,M0_mean,1.0,1,both,1.524,1.524,[],False
+N4,True,2,shoulder_elev_L,左肩抬高（左臂抬起）,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 44]",-,左臂抬得更低,-47.3,M0_mean,1.0,1,M0_only,2.471,1.235,[],True
+N4,True,3,pelvis_rot_imu,骨盆转动,"[""follow""]",随挥,"{""start"": [""follow"", 16], ""end"": [""follow"", 96]}","[""follow"", 80]",-,骨盆更侧身、转得更少（更关闭）,-49.8,M0_mean,1.0,1,both,1.212,1.212,[],True
+N4,True,4,uarm_forward_R,右上臂前后位置,"[""forward""]",前挥,"{""start"": [""forward"", 0], ""end"": [""forward"", 96]}","[""forward"", 46]",-,右上臂更靠后,-41.9,M0_mean,1.0,1,both,0.914,0.914,[],False
+N4,True,5,trunk_forward_lean,躯干前倾,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 96]}","[""follow"", 32]",+,躯干更前倾,20.7,M0_mean,0.95,1,both,0.896,0.851,[],False
+N5,True,1,knee_flex_L,左膝屈曲,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 32]",-,左腿更直（屈膝不足）,-28.2,M0_mean,1.0,1,both,1.427,1.427,[],True
+N5,True,2,thorax_rot_imu,躯干转动,"[""follow""]",随挥,"{""start"": [""follow"", 16], ""end"": [""follow"", 96]}","[""follow"", 96]",-,躯干更侧身、转得更少（更关闭）,-45.6,M0_mean,0.97,1,both,0.972,0.945,[],True

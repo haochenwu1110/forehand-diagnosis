@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and the dataset."
+title: "Skilled-referenced structured diagnosis of individual tennis forehand technique: data and code"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-09"
+authors:
+  - family-names: "Chen"
+    given-names: "Jiayi"
+    affiliation: "Jilin University"
+  - family-names: "Xu"
+    given-names: "Shenliang"
+    affiliation: "Xi'an Jiaotong University"
+  - family-names: "Zhao"
+    given-names: "Ziyang"
+    affiliation: "Beihang University"
+  - family-names: "Shen"
+    given-names: "Yao"
+    affiliation: "Jilin University"
+  - family-names: "Chen"
+    given-names: "Weizheng"
+    affiliation: "Jilin University"
+keywords: [tennis, forehand, motion capture, inertial sensors, technique diagnosis, large language model, coaching feedback]
+preferred-citation:
+  type: article
+  title: "Skilled-Referenced Structured Diagnosis of Individual Forehand Technique in Tennis Using Full-Body Inertial Motion Capture"
+  journal: "Sports"
+  year: 2026
+  authors:
+    - family-names: "Chen"
+      given-names: "Jiayi"
+      affiliation: "Jilin University"
+    - family-names: "Xu"
+      given-names: "Shenliang"
+      affiliation: "Xi'an Jiaotong University"
+    - family-names: "Zhao"
+      given-names: "Ziyang"
+      affiliation: "Beihang University"
+    - family-names: "Shen"
+      given-names: "Yao"
+      affiliation: "Jilin University"
+    - family-names: "Chen"
+      given-names: "Weizheng"
+      affiliation: "Jilin University"

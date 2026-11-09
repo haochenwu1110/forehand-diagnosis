@@ -1,0 +1,137 @@
+{
+ "source": "outputs_example_chat.json",
+ "seeds": [
+  {
+   "id": "R1",
+   "kind": "rule",
+   "player": "N4",
+   "rank": 5,
+   "field": "items",
+   "expect_rule": [
+    "C1"
+   ],
+   "expect_judge": [
+    "G1"
+   ],
+   "desc": "删去最后一条问题"
+  },
+  {
+   "id": "R2",
+   "kind": "rule",
+   "player": "N4",
+   "rank": 1,
+   "field": "restatement",
+   "expect_rule": [
+    "C2",
+    "C3"
+   ],
+   "expect_judge": [
+    "J1"
+   ],
+   "desc": "度数 22° 改为 12°"
+  },
+  {
+   "id": "R3",
+   "kind": "rule",
+   "player": "N4",
+   "rank": 2,
+   "field": "cue",
+   "expect_rule": [
+    "C4"
+   ],
+   "expect_judge": [
+    "J4"
+   ],
+   "desc": "cue 加入清单外的右肘"
+  },
+  {
+   "id": "R4",
+   "kind": "rule",
+   "player": "N4",
+   "rank": 3,
+   "field": "looks_like",
+   "expect_rule": [
+    "C5"
+   ],
+   "expect_judge": [
+    "J6"
+   ],
+   "desc": "looks_like 加入越界词“球速”"
+  },
+  {
+   "id": "R5",
+   "kind": "rule",
+   "player": "N3",
+   "rank": 1,
+   "field": "note",
+   "expect_rule": [
+    "C6"
+   ],
+   "expect_judge": [
+    "G2"
+   ],
+   "desc": "清空应有的 note"
+  },
+  {
+   "id": "S1",
+   "kind": "semantic",
+   "player": "N4",
+   "rank": 4,
+   "field": "cue",
+   "expect_rule": [],
+   "expect_judge": [
+    "J3"
+   ],
+   "desc": "cue 要求加大偏差（方向反了）"
+  },
+  {
+   "id": "S2",
+   "kind": "semantic",
+   "player": "N3",
+   "rank": 2,
+   "field": "looks_like",
+   "expect_rule": [],
+   "expect_judge": [
+    "J2"
+   ],
+   "desc": "looks_like 说没有偏差"
+  },
+  {
+   "id": "S3",
+   "kind": "semantic",
+   "player": "N3",
+   "rank": 3,
+   "field": "cue",
+   "expect_rule": [],
+   "expect_judge": [
+    "J4",
+    "J3"
+   ],
+   "desc": "cue 把调整挪到引拍"
+  },
+  {
+   "id": "S4",
+   "kind": "semantic",
+   "player": "N3",
+   "rank": 4,
+   "field": "looks_like",
+   "expect_rule": [],
+   "expect_judge": [
+    "J6"
+   ],
+   "desc": "looks_like 推断原因"
+  },
+  {
+   "id": "S5",
+   "kind": "semantic",
+   "player": "N2",
+   "rank": 1,
+   "field": "drill",
+   "expect_rule": [],
+   "expect_judge": [
+    "J5"
+   ],
+   "desc": "drill 改为全速实球连续击打"
+  }
+ ]
+}

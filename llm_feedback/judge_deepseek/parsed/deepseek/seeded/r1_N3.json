@@ -1,0 +1,144 @@
+{
+ "judgement": {
+  "player": "N3",
+  "items": [
+   {
+    "rank": 1,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 2,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": false,
+     "reason": "looks_like 写“和熟练者基本一样，看不出明显差别”，与诊断方向“右上臂抬得更低”矛盾。"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 3,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": false,
+     "reason": "cue 写“随挥不用刻意调整，只在引拍阶段注意”，没有给出与骨盆“更关闭”相反的打开调整。"
+    },
+    "J4": {
+     "pass": false,
+     "reason": "cue 把调整移到引拍阶段，超出诊断的随挥阶段。"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 4,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": false,
+     "reason": "drill 写“引拍时左臂向前伸出”，超出诊断的前挥阶段。"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": false,
+     "reason": "looks_like 写“柔韧性不足、协调性较差”，推断原因。"
+    }
+   }
+  ],
+  "global": {
+   "G1": {
+    "pass": true,
+    "reason": "通过"
+   },
+   "G2": {
+    "pass": false,
+    "reason": "item1 novice_common=true 但 note 为空，应写“新手常见问题”。"
+   }
+  },
+  "overall_pass": false
+ },
+ "valid": true,
+ "error": "",
+ "returned_model": "deepseek-v4-pro",
+ "usage": {
+  "prompt_tokens": 2379,
+  "completion_tokens": 3779,
+  "total_tokens": 6158,
+  "prompt_tokens_details": {
+   "cached_tokens": 1152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3033
+  },
+  "prompt_cache_hit_tokens": 1152,
+  "prompt_cache_miss_tokens": 1227
+ },
+ "latency_s": 62.01,
+ "attempts": 1
+}

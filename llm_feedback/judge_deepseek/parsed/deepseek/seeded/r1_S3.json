@@ -1,0 +1,35 @@
+{
+ "judgement": {
+  "player": "S3",
+  "items": [],
+  "global": {
+   "G1": {
+    "pass": true,
+    "reason": "通过"
+   },
+   "G2": {
+    "pass": true,
+    "reason": "通过"
+   }
+  },
+  "overall_pass": true
+ },
+ "valid": true,
+ "error": "",
+ "returned_model": "deepseek-v4-pro",
+ "usage": {
+  "prompt_tokens": 1308,
+  "completion_tokens": 149,
+  "total_tokens": 1457,
+  "prompt_tokens_details": {
+   "cached_tokens": 1280
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 76
+  },
+  "prompt_cache_hit_tokens": 1280,
+  "prompt_cache_miss_tokens": 28
+ },
+ "latency_s": 4.13,
+ "attempts": 1
+}

@@ -1,0 +1,94 @@
+{
+  "subject": "N5",
+  "n_strokes": 18,
+  "reference": "10 名熟练者（S1, S2, S3, S4, S5, S6, S7, S8, S9, S10）",
+  "params": {
+    "P_MIN": 0.85,
+    "TAU": 1.0,
+    "tier_weight": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.5
+    },
+    "agreement_weight": {
+      "both": 1.0,
+      "single": 0.5
+    },
+    "methods": [
+      "M0_mean",
+      "M2_pca90"
+    ],
+    "target_skilled_findings": 1.0
+  },
+  "n_findings_total": 2,
+  "findings": [
+    {
+      "rank": 1,
+      "channel": "knee_flex_L",
+      "joint_cn": "左膝屈曲",
+      "phases": [
+        "backswing"
+      ],
+      "phase_cn": "引拍",
+      "range_pct": {
+        "start": [
+          "backswing",
+          0
+        ],
+        "end": [
+          "backswing",
+          98
+        ]
+      },
+      "peak_pct": [
+        "backswing",
+        32
+      ],
+      "direction": "-",
+      "direction_text": "左腿更直（屈膝不足）",
+      "magnitude_deg": -28.2,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 1.427,
+      "priority": 1.427,
+      "related": [],
+      "matches_group_difference": true
+    },
+    {
+      "rank": 2,
+      "channel": "thorax_rot_imu",
+      "joint_cn": "躯干转动",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          16
+        ],
+        "end": [
+          "follow",
+          96
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        96
+      ],
+      "direction": "-",
+      "direction_text": "躯干更侧身、转得更少（更关闭）",
+      "magnitude_deg": -45.6,
+      "magnitude_source": "M0_mean",
+      "consistency": 0.97,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 0.972,
+      "priority": 0.945,
+      "related": [],
+      "matches_group_difference": true
+    }
+  ]
+}

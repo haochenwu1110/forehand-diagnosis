@@ -1,0 +1,11 @@
+subject,rank,channel,joint_cn,phases,phase_cn,range_pct,peak_pct,direction,direction_text,magnitude_deg,magnitude_source,consistency,tier,agreement,excess,priority,related,matches_group_difference
+S1,1,shoulder_elev_L,左肩抬高（左臂抬起）,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 72]}","[""follow"", 28]",+,左臂抬得更高,39.1,M0_mean,1.0,1,both,1.664,1.664,[],False
+S2,1,knee_flex_L,左膝屈曲,"[""follow""]",随挥,"{""start"": [""follow"", 12], ""end"": [""follow"", 96]}","[""follow"", 96]",-,左腿更直（屈膝不足）,-20.7,M0_mean,0.93,1,both,0.928,0.862,[],False
+S4,1,hip_flex_L,左髋屈曲,"[""backswing"", ""forward""]",引拍→前挥,"{""start"": [""backswing"", 4], ""end"": [""forward"", 82]}","[""backswing"", 62]",-,左髋屈得更少,-34.5,M0_mean,1.0,1,both,1.405,1.405,[],False
+S6,1,shoulder_elev_R,右肩抬高（上臂抬起）,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 0]",-,右上臂抬得更低,-40.6,M0_mean,1.0,1,both,3.136,3.136,[],False
+S6,2,elbow_flex_R,右肘屈曲,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 46]",+,右肘更弯,50.0,M0_mean,1.0,1,both,2.432,2.432,[],False
+S6,3,elbow_flex_L,左肘屈曲,"[""forward""]",前挥,"{""start"": [""forward"", 0], ""end"": [""forward"", 98]}","[""forward"", 40]",+,左肘更弯,83.7,M0_mean,1.0,1,both,2.057,2.057,[],False
+S7,1,uarm_forward_R,右上臂前后位置,"[""backswing"", ""forward""]",引拍→前挥,"{""start"": [""backswing"", 0], ""end"": [""forward"", 78]}","[""backswing"", 0]",+,右上臂更靠前,34.4,M0_mean,1.0,1,both,1.187,1.187,[],False
+S8,1,uarm_forward_R,右上臂前后位置,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 14]",-,右上臂更靠后,-37.7,M0_mean,1.0,1,both,1.045,1.045,[],False
+S10,1,elbow_flex_L,左肘屈曲,"[""backswing""]",引拍,"{""start"": [""backswing"", 0], ""end"": [""backswing"", 98]}","[""backswing"", 48]",+,左肘更弯,58.6,M0_mean,1.0,1,both,1.221,1.221,[],False
+S10,2,knee_flex_L,左膝屈曲,"[""follow""]",随挥,"{""start"": [""follow"", 0], ""end"": [""follow"", 96]}","[""follow"", 16]",+,左膝屈得更多,28.4,M0_mean,0.97,1,both,1.055,1.026,[],False

@@ -1,0 +1,3 @@
+﻿target,judge,units,invalid,fails,repeat_stability,J1,J2,J3,J4,J5,J6,G1,G2
+main,deepseek,108,0,2,,0,0,0,2,0,0,0,0
+seeded,deepseek,108,0,19,,2,2,3,4,3,3,1,1

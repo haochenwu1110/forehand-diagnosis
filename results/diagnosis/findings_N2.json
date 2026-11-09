@@ -1,0 +1,128 @@
+{
+  "subject": "N2",
+  "n_strokes": 22,
+  "reference": "10 名熟练者（S1, S2, S3, S4, S5, S6, S7, S8, S9, S10）",
+  "params": {
+    "P_MIN": 0.85,
+    "TAU": 1.0,
+    "tier_weight": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.5
+    },
+    "agreement_weight": {
+      "both": 1.0,
+      "single": 0.5
+    },
+    "methods": [
+      "M0_mean",
+      "M2_pca90"
+    ],
+    "target_skilled_findings": 1.0
+  },
+  "n_findings_total": 3,
+  "findings": [
+    {
+      "rank": 1,
+      "channel": "hip_flex_R",
+      "joint_cn": "右髋屈曲",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          0
+        ],
+        "end": [
+          "follow",
+          88
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        24
+      ],
+      "direction": "+",
+      "direction_text": "右髋屈得更多",
+      "magnitude_deg": 48.2,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 1.51,
+      "priority": 1.51,
+      "related": [],
+      "matches_group_difference": false
+    },
+    {
+      "rank": 2,
+      "channel": "trunk_forward_lean",
+      "joint_cn": "躯干前倾",
+      "phases": [
+        "backswing"
+      ],
+      "phase_cn": "引拍",
+      "range_pct": {
+        "start": [
+          "backswing",
+          0
+        ],
+        "end": [
+          "backswing",
+          98
+        ]
+      },
+      "peak_pct": [
+        "backswing",
+        80
+      ],
+      "direction": "-",
+      "direction_text": "躯干更直立/后仰",
+      "magnitude_deg": -18.2,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 0.95,
+      "priority": 0.95,
+      "related": [],
+      "matches_group_difference": true
+    },
+    {
+      "rank": 3,
+      "channel": "thorax_rot_imu",
+      "joint_cn": "躯干转动",
+      "phases": [
+        "follow"
+      ],
+      "phase_cn": "随挥",
+      "range_pct": {
+        "start": [
+          "follow",
+          8
+        ],
+        "end": [
+          "follow",
+          96
+        ]
+      },
+      "peak_pct": [
+        "follow",
+        96
+      ],
+      "direction": "-",
+      "direction_text": "躯干更侧身、转得更少（更关闭）",
+      "magnitude_deg": -48.7,
+      "magnitude_source": "M0_mean",
+      "consistency": 1.0,
+      "tier": 1,
+      "agreement": "both",
+      "excess": 0.874,
+      "priority": 0.874,
+      "related": [],
+      "matches_group_difference": true
+    }
+  ]
+}

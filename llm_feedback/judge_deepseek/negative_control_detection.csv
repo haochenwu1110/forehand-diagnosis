@@ -1,0 +1,11 @@
+﻿seed,kind,player,rank,desc,expect_judge,expect_rule,deepseek,panel_majority,rule_check
+R1,rule,N4,5,删去最后一条问题,G1,C1,✓,✓,✓
+R2,rule,N4,1,度数 22° 改为 12°,J1,C2/C3,✓,✓,✓
+R3,rule,N4,2,cue 加入清单外的右肘,J4,C4,✓,✓,✓
+R4,rule,N4,3,looks_like 加入越界词“球速”,J6,C5,✓,✓,✓
+R5,rule,N3,1,清空应有的 note,G2,C6,✓,✓,✓
+S1,semantic,N4,4,cue 要求加大偏差（方向反了）,J3,—,✓,✓,✗
+S2,semantic,N3,2,looks_like 说没有偏差,J2,—,✓,✓,✗
+S3,semantic,N3,3,cue 把调整挪到引拍,J4/J3,—,✓,✓,✗
+S4,semantic,N3,4,looks_like 推断原因,J6,—,✓,✓,✗
+S5,semantic,N2,1,drill 改为全速实球连续击打,J5,—,✓,✓,✗

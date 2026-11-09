@@ -1,0 +1,7 @@
+{
+ "_comment": "只用 DeepSeek 做评审。想省钱可把 model 改成 deepseek-flash。",
+ "models": [
+  {"name": "deepseek", "provider": "openai_compatible", "base_url": "https://api.deepseek.com",
+   "api_key_env": "DEEPSEEK_API_KEY", "model": "deepseek-v4-pro", "temperature": 0, "max_tokens": 8000, "json_mode": true}
+ ]
+}

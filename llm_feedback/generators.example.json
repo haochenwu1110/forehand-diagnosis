@@ -1,0 +1,50 @@
+{
+ "_comment": "复制为 generators.json 后使用。论文正文只用 Claude；其他模型用于补充材料中的跨模型比较。模型 ID 请在控制台核对。",
+ "models": [
+  {
+   "name": "claude",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "temperature": 0,
+   "max_tokens": 4000
+  },
+  {
+   "name": "gpt",
+   "provider": "openai",
+   "model": "gpt-6-astra",
+   "temperature": 0,
+   "max_tokens": 4000,
+   "json_mode": true
+  },
+  {
+   "name": "gemini",
+   "provider": "gemini",
+   "model": "gemini-3.8-flash",
+   "temperature": 0,
+   "max_tokens": 8000,
+   "json_mode": true,
+   "_note": "免费层可用；gemini-4-argon 为付费模型。中国大陆无法直连，需设置 HTTPS_PROXY"
+  },
+  {
+   "name": "deepseek",
+   "provider": "openai_compatible",
+   "base_url": "https://api.deepseek.com",
+   "api_key_env": "DEEPSEEK_API_KEY",
+   "model": "deepseek-v4-pro",
+   "temperature": 0,
+   "max_tokens": 8000,
+   "json_mode": true,
+   "_note": "也可用更便宜的 deepseek-flash"
+  },
+  {
+   "name": "qwen",
+   "provider": "openai_compatible",
+   "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+   "api_key_env": "DASHSCOPE_API_KEY",
+   "model": "qwen3-max",
+   "temperature": 0,
+   "max_tokens": 4000,
+   "json_mode": true
+  }
+ ]
+}

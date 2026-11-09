@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+out/
+llm_feedback/*_mock/
+.DS_Store

@@ -1,0 +1,6 @@
+config,cn,P_MIN,skilled_mean_findings,novice_mean_findings,broad1SD_top3,broad2SD_top3,broad3SD_top3,local1SD_top3,local2SD_top3,local3SD_top3,broad2SD_top3_tier1,broad2SD_top3_tier2,broad2SD_top3_tier3,hit:trunk_forward_lean backswing 0%→forward 70% (-),hit:knee_flex_L backswing 0%→backswing 62% (-),hit:thorax_rot_imu follow 4%→follow 96% (-),hit:shoulder_elev_L backswing 0%→backswing 86% (-),hit:pelvis_rot_imu follow 4%→follow 96% (-),stability_jaccard_mean
+full,完整,0.850,1.000,3.200,0.083,0.271,0.624,0.031,0.045,0.081,0.271,,,1,2,2,1,2,0.793
+no_tier,去掉可信度权重,0.850,1.000,3.200,0.083,0.271,0.624,0.031,0.045,0.081,0.271,,,1,2,2,1,2,0.793
+no_consistency,去掉一致性,0.930,1.000,2.400,0.074,0.250,0.583,0.024,0.038,0.064,0.250,,,1,2,1,1,2,0.693
+M0_only,只用 M0,1.410,1.000,3.400,0.071,0.210,0.486,0.019,0.052,0.071,0.210,,,1,2,3,3,1,0.669
+PCA90_only,只用 PCA90,1.020,1.000,2.800,0.074,0.288,0.586,0.026,0.040,0.071,0.288,,,0,4,0,0,2,0.867

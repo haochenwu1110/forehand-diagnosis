@@ -1,0 +1,117 @@
+{
+ "judgement": {
+  "player": "N2",
+  "items": [
+   {
+    "rank": 1,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 2,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 3,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   }
+  ],
+  "global": {
+   "G1": {
+    "pass": true,
+    "reason": "通过"
+   },
+   "G2": {
+    "pass": true,
+    "reason": "通过"
+   }
+  },
+  "overall_pass": true
+ },
+ "valid": true,
+ "error": "",
+ "returned_model": "deepseek-v4-pro",
+ "usage": {
+  "prompt_tokens": 2067,
+  "completion_tokens": 3411,
+  "total_tokens": 5478,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3025
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 2067
+ },
+ "latency_s": 50.69,
+ "attempts": 1
+}

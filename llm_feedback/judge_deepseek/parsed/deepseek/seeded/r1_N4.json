@@ -1,0 +1,171 @@
+{
+ "judgement": {
+  "player": "N4",
+  "items": [
+   {
+    "rank": 1,
+    "J1": {
+     "pass": false,
+     "reason": "restatement 中“多倾约 12°”与诊断度数 22°不一致"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 2,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": false,
+     "reason": "cue 中“同时把右肘再弯一些”引入了清单外的关节（右肘）"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 3,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J6": {
+     "pass": false,
+     "reason": "looks_like 中“这样会影响球速”评价了球速"
+    }
+   },
+   {
+    "rank": 4,
+    "J1": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J2": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J3": {
+     "pass": false,
+     "reason": "cue 让继续保持“右上臂更靠后”并更明显，与偏差方向相同而非相反"
+    },
+    "J4": {
+     "pass": true,
+     "reason": "通过"
+    },
+    "J5": {
+     "pass": false,
+     "reason": "drill 要求右上臂继续向前，与 cue 的“更靠后”不一致"
+    },
+    "J6": {
+     "pass": true,
+     "reason": "通过"
+    }
+   },
+   {
+    "rank": 5,
+    "J1": {
+     "pass": false,
+     "reason": "该条缺失"
+    },
+    "J2": {
+     "pass": false,
+     "reason": "该条缺失"
+    },
+    "J3": {
+     "pass": false,
+     "reason": "该条缺失"
+    },
+    "J4": {
+     "pass": false,
+     "reason": "该条缺失"
+    },
+    "J5": {
+     "pass": false,
+     "reason": "该条缺失"
+    },
+    "J6": {
+     "pass": false,
+     "reason": "该条缺失"
+    }
+   }
+  ],
+  "global": {
+   "G1": {
+    "pass": false,
+    "reason": "诊断有5条问题，建议只给出4条，缺少第5条（躯干前倾/随挥）"
+   },
+   "G2": {
+    "pass": true,
+    "reason": "通过"
+   }
+  },
+  "overall_pass": false
+ },
+ "valid": true,
+ "error": "",
+ "returned_model": "deepseek-v4-pro",
+ "usage": {
+  "prompt_tokens": 2372,
+  "completion_tokens": 5954,
+  "total_tokens": 8326,
+  "prompt_tokens_details": {
+   "cached_tokens": 1152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5068
+  },
+  "prompt_cache_hit_tokens": 1152,
+  "prompt_cache_miss_tokens": 1220
+ },
+ "latency_s": 106.07,
+ "attempts": 1
+}

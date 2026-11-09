@@ -1,0 +1,219 @@
+{
+ "S3": {
+  "player": "S3",
+  "level": "熟练者",
+  "issues": []
+ },
+ "N1": {
+  "player": "N1",
+  "level": "新手",
+  "issues": [
+   {
+    "rank": 1,
+    "channel": "shoulder_elev_L",
+    "joint": "左肩抬高（左臂抬起）",
+    "phase": "前挥",
+    "direction": "左臂抬得更高",
+    "degrees": 26,
+    "consistency": "97%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   },
+   {
+    "rank": 2,
+    "channel": "uarm_forward_R",
+    "joint": "右上臂前后位置",
+    "phase": "引拍",
+    "direction": "右上臂更靠前",
+    "degrees": 53,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   }
+  ]
+ },
+ "N2": {
+  "player": "N2",
+  "level": "新手",
+  "issues": [
+   {
+    "rank": 1,
+    "channel": "hip_flex_R",
+    "joint": "右髋屈曲",
+    "phase": "随挥",
+    "direction": "右髋屈得更多",
+    "degrees": 48,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   },
+   {
+    "rank": 2,
+    "channel": "trunk_forward_lean",
+    "joint": "躯干前倾",
+    "phase": "引拍",
+    "direction": "躯干更直立/后仰",
+    "degrees": 18,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   },
+   {
+    "rank": 3,
+    "channel": "thorax_rot_imu",
+    "joint": "躯干转动",
+    "phase": "随挥",
+    "direction": "躯干更侧身、转得更少（更关闭）",
+    "degrees": 49,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   }
+  ]
+ },
+ "N3": {
+  "player": "N3",
+  "level": "新手",
+  "issues": [
+   {
+    "rank": 1,
+    "channel": "knee_flex_L",
+    "joint": "左膝屈曲",
+    "phase": "引拍→前挥",
+    "direction": "左腿更直（屈膝不足）",
+    "degrees": 48,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   },
+   {
+    "rank": 2,
+    "channel": "shoulder_elev_R",
+    "joint": "右肩抬高（上臂抬起）",
+    "phase": "引拍→前挥→随挥",
+    "direction": "右上臂抬得更低",
+    "degrees": 50,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   },
+   {
+    "rank": 3,
+    "channel": "pelvis_rot_imu",
+    "joint": "骨盆转动",
+    "phase": "随挥",
+    "direction": "骨盆更侧身、转得更少（更关闭）",
+    "degrees": 48,
+    "consistency": "95%",
+    "agreement": "两种参照都报出",
+    "novice_common": true,
+    "related": [
+     {
+      "joint": "躯干转动",
+      "degrees": 46
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "channel": "shoulder_elev_L",
+    "joint": "左肩抬高（左臂抬起）",
+    "phase": "前挥",
+    "direction": "左臂抬得更低",
+    "degrees": 27,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   }
+  ]
+ },
+ "N4": {
+  "player": "N4",
+  "level": "新手",
+  "issues": [
+   {
+    "rank": 1,
+    "channel": "trunk_lateral_tilt",
+    "joint": "躯干侧倾",
+    "phase": "随挥",
+    "direction": "躯干更向左侧倾",
+    "degrees": 22,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   },
+   {
+    "rank": 2,
+    "channel": "shoulder_elev_L",
+    "joint": "左肩抬高（左臂抬起）",
+    "phase": "引拍",
+    "direction": "左臂抬得更低",
+    "degrees": 47,
+    "consistency": "100%",
+    "agreement": "仅平均模板报出",
+    "novice_common": true
+   },
+   {
+    "rank": 3,
+    "channel": "pelvis_rot_imu",
+    "joint": "骨盆转动",
+    "phase": "随挥",
+    "direction": "骨盆更侧身、转得更少（更关闭）",
+    "degrees": 50,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   },
+   {
+    "rank": 4,
+    "channel": "uarm_forward_R",
+    "joint": "右上臂前后位置",
+    "phase": "前挥",
+    "direction": "右上臂更靠后",
+    "degrees": 42,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   },
+   {
+    "rank": 5,
+    "channel": "trunk_forward_lean",
+    "joint": "躯干前倾",
+    "phase": "随挥",
+    "direction": "躯干更前倾",
+    "degrees": 21,
+    "consistency": "95%",
+    "agreement": "两种参照都报出",
+    "novice_common": false
+   }
+  ]
+ },
+ "N5": {
+  "player": "N5",
+  "level": "新手",
+  "issues": [
+   {
+    "rank": 1,
+    "channel": "knee_flex_L",
+    "joint": "左膝屈曲",
+    "phase": "引拍",
+    "direction": "左腿更直（屈膝不足）",
+    "degrees": 28,
+    "consistency": "100%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   },
+   {
+    "rank": 2,
+    "channel": "thorax_rot_imu",
+    "joint": "躯干转动",
+    "phase": "随挥",
+    "direction": "躯干更侧身、转得更少（更关闭）",
+    "degrees": 46,
+    "consistency": "97%",
+    "agreement": "两种参照都报出",
+    "novice_common": true
+   }
+  ]
+ }
+}

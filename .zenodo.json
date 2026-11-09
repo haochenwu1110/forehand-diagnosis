@@ -1,0 +1,43 @@
+{
+ "title": "Skilled-referenced structured diagnosis of individual tennis forehand technique: data and code",
+ "upload_type": "dataset",
+ "description": "Phase-normalised joint angles (15 players, 322 tennis forehand strokes recorded with Perception Neuron 3 Pro at 60 Hz), stroke metadata, diagnostic results, language-model inputs, outputs and DeepSeek-V4-Pro judgements, and the Python analysis code for the article submitted to Sports (MDPI). Raw joint-centre trajectories are available from the corresponding author on request. Data: CC BY 4.0. Code: MIT.",
+ "creators": [
+  {
+   "name": "Chen, Jiayi",
+   "affiliation": "Jilin University"
+  },
+  {
+   "name": "Xu, Shenliang",
+   "affiliation": "Xi'an Jiaotong University"
+  },
+  {
+   "name": "Zhao, Ziyang",
+   "affiliation": "Beihang University"
+  },
+  {
+   "name": "Shen, Yao",
+   "affiliation": "Jilin University"
+  },
+  {
+   "name": "Chen, Weizheng",
+   "affiliation": "Jilin University"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "keywords": [
+  "tennis",
+  "forehand",
+  "motion capture",
+  "technique diagnosis",
+  "large language model",
+  "LLM-as-judge"
+ ],
+ "related_identifiers": [
+  {
+   "relation": "isSupplementTo",
+   "identifier": "[article DOI after acceptance]",
+   "scheme": "doi"
+  }
+ ]
+}

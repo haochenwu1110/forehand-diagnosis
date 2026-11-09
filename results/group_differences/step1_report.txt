@@ -1,0 +1,50 @@
+# 第 1 步：熟练者与新手的差异定位（输入 angles_norm.npz，单位 °）
+
+熟练组 10 人：S1, S2, S3, S4, S5, S6, S7, S8, S9, S10；新手组 5 人：N1, N2, N3, N4, N5
+使用的通道：pelvis_rot_imu, thorax_rot_imu, separation_imu, shoulder_elev_R, uarm_forward_R, elbow_flex_R, trunk_forward_lean, trunk_lateral_tilt, hip_flex_L, hip_flex_R, knee_flex_L, knee_flex_R, shoulder_elev_L, elbow_flex_L
+
+## 簇置换检验（每个关节 3003 种分组方式；t 临界值 2.16，df = 13）
+p_perm：关节内校正（控制了 125 个时刻）；p_holm_channel：再跨关节做 Holm 校正。p 最小为 1/3003 = 0.0003；人少时跨关节校正后几乎不可能显著，组水平结论请作为探索性结果。
+
+## 组间差异簇（按 p 排序；只列出长度 ≥ 1 的全部簇，p_perm < 0.05 的才算关节内显著）
+mean_diff = 簇内新手均值 − 熟练均值；peak_diff = 簇内最大差值；complete_separation_frac = 簇内'3 名新手全部在熟练者范围外'的时刻比例；robust = 去掉任一名熟练者后仍出现的次数
+           channel    direction  phase_start     phase_end  length  mean_diff_novice_minus_skilled  peak_diff  complete_separation_frac  p_perm  p_holm_channel robust
+trunk_forward_lean novice_below backswing 0%   forward 70%      86                         -14.666    -16.783                       0.0   0.003           0.021  10/10
+       knee_flex_L novice_below backswing 0% backswing 62%      32                         -25.024    -27.920                       0.0   0.029           0.176  10/10
+    thorax_rot_imu novice_below    follow 4%    follow 96%      24                         -42.042    -51.020                       0.0   0.034           0.176  10/10
+   shoulder_elev_L novice_below backswing 0% backswing 86%      44                         -31.706    -36.066                       0.0   0.037           0.176  10/10
+    pelvis_rot_imu novice_below    follow 4%    follow 96%      24                         -36.444    -43.750                       0.0   0.039           0.176  10/10
+      elbow_flex_L novice_below   follow 36%    follow 96%      16                         -27.775    -29.815                       0.0   0.125           0.250  10/10
+   shoulder_elev_R novice_below   follow 84%    follow 96%       4                         -19.290    -19.520                       0.0   0.227           0.250   3/10
+
+## 新手个人报告（每人偏差最大的 5 处；group_significant = 组水平显著簇，individual = 本人平均曲线超出熟练范围）
+N1:
+   uarm_forward_R [backswing 0% → follow 20%] 高于熟练均值 43°，100% 的拍超出熟练范围（individual_above）
+   elbow_flex_R [backswing 0% → backswing 82%] 低于熟练均值 42°，100% 的拍超出熟练范围（individual_below）
+   elbow_flex_L [follow 28% → follow 76%] 低于熟练均值 39°，89% 的拍超出熟练范围（individual_below）
+   shoulder_elev_L [backswing 86% → forward 82%] 高于熟练均值 27°，97% 的拍超出熟练范围（individual_above）
+   shoulder_elev_R [backswing 82% → forward 24%] 高于熟练均值 16°，76% 的拍超出熟练范围（individual_above）
+N2:
+   thorax_rot_imu [follow 4% → follow 96%] 低于熟练均值 50°，100% 的拍超出熟练范围（group_significant）
+   thorax_rot_imu [forward 88% → follow 96%] 低于熟练均值 43°，100% 的拍超出熟练范围（individual_below）
+   uarm_forward_R [backswing 48% → follow 44%] 低于熟练均值 42°，100% 的拍超出熟练范围（individual_below）
+   hip_flex_R [forward 56% → follow 96%] 高于熟练均值 42°，100% 的拍超出熟练范围（individual_above）
+   pelvis_rot_imu [follow 48% → follow 96%] 低于熟练均值 39°，95% 的拍超出熟练范围（individual_below）
+N3:
+   shoulder_elev_L [backswing 0% → backswing 86%] 低于熟练均值 61°，100% 的拍超出熟练范围（group_significant）
+   knee_flex_L [backswing 0% → backswing 62%] 低于熟练均值 53°，100% 的拍超出熟练范围（group_significant）
+   pelvis_rot_imu [follow 4% → follow 96%] 低于熟练均值 49°，100% 的拍超出熟练范围（group_significant）
+   thorax_rot_imu [follow 4% → follow 96%] 低于熟练均值 47°，95% 的拍超出熟练范围（group_significant）
+   shoulder_elev_L [backswing 0% → forward 72%] 低于熟练均值 47°，100% 的拍超出熟练范围（individual_below）
+N4:
+   pelvis_rot_imu [follow 16% → follow 96%] 低于熟练均值 56°，100% 的拍超出熟练范围（individual_below）
+   thorax_rot_imu [follow 12% → follow 96%] 低于熟练均值 54°，90% 的拍超出熟练范围（individual_below）
+   pelvis_rot_imu [follow 4% → follow 96%] 低于熟练均值 51°，100% 的拍超出熟练范围（group_significant）
+   thorax_rot_imu [follow 4% → follow 96%] 低于熟练均值 50°，85% 的拍超出熟练范围（group_significant）
+   shoulder_elev_L [backswing 0% → backswing 86%] 低于熟练均值 48°，95% 的拍超出熟练范围（group_significant）
+N5:
+   shoulder_elev_L [backswing 0% → backswing 86%] 低于熟练均值 49°，100% 的拍超出熟练范围（group_significant）
+   thorax_rot_imu [follow 8% → follow 96%] 低于熟练均值 49°，89% 的拍超出熟练范围（individual_below）
+   thorax_rot_imu [follow 4% → follow 96%] 低于熟练均值 47°，83% 的拍超出熟练范围（group_significant）
+   pelvis_rot_imu [follow 12% → follow 96%] 低于熟练均值 43°，83% 的拍超出熟练范围（individual_below）
+   pelvis_rot_imu [follow 4% → follow 96%] 低于熟练均值 41°，83% 的拍超出熟练范围（group_significant）
